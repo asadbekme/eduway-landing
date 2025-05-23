@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white">
+    <>
       {/* Navigation */}
       <header className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center">
@@ -244,6 +244,6 @@ export default function Home() {
           {/* Footer content would go here */}
         </div>
       </footer>
-    </div>
+    </>
   );
 }
