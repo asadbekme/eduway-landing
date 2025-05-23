@@ -153,15 +153,15 @@ export default function Home() {
 
           <div className="bg-white rounded-lg shadow-md overflow-hidden">
             <Image
-              src="/images/doctors.png"
-              alt="Shifokor - Medical professionals"
+              src="/images/teacher.png"
+              alt="O'qituvchi - Teacher"
               width={280}
               height={280}
               className="w-full h-48 object-contain"
             />
             <div className="p-4 text-center">
               <h3 className="text-lg font-semibold text-[#4050fc] mb-2">
-                Shifokor
+                O'qituvchi
               </h3>
               <p className="text-gray-600 text-sm">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -171,8 +171,8 @@ export default function Home() {
 
           <div className="bg-white rounded-lg shadow-md overflow-hidden">
             <Image
-              src="/images/doctors.png"
-              alt="Shifokor - Medical professionals"
+              src="/images/chef.png"
+              alt="Oshpaz - Chef"
               width={280}
               height={280}
               className="w-full h-48 object-contain"
